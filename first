@@ -1,0 +1,13 @@
+def str(s):
+    s1 = s.unique()
+    print(s1)
+    if len(s) ==len(s1):
+        print( '数组值唯一')
+    else:
+        print( '数组值不唯一')
+
+st= input('请随机输入一组元素，用英文逗号隔开：\n')
+lst = st.split(',')
+s = pd.Series(lst)
+print(s)
+str(s)
