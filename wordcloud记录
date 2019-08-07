@@ -1,0 +1,47 @@
+报错一：
+
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+================ RESTART: D:\python_wordcloud\3_wordcloud.py ================
+Traceback (most recent call last):
+  File "D:\python_wordcloud\3_wordcloud.py", line 13, in <module>
+    w.generate(txt)
+  File "D:\pycharm\lib\site-packages\wordcloud\wordcloud.py", line 605, in generate
+    return self.generate_from_text(text)
+  File "D:\pycharm\lib\site-packages\wordcloud\wordcloud.py", line 587, in generate_from_text
+    self.generate_from_frequencies(words)
+  File "D:\pycharm\lib\site-packages\wordcloud\wordcloud.py", line 426, in generate_from_frequencies
+    max_font_size=self.height)
+  File "D:\pycharm\lib\site-packages\wordcloud\wordcloud.py", line 473, in generate_from_frequencies
+    font = ImageFont.truetype(self.font_path, font_size)
+  File "D:\pycharm\lib\site-packages\PIL\ImageFont.py", line 546, in truetype
+    return freetype(font)
+  File "D:\pycharm\lib\site-packages\PIL\ImageFont.py", line 543, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\pycharm\lib\site-packages\PIL\ImageFont.py", line 161, in __init__
+    font, size, index, encoding, layout_engine=layout_engine
+OSError: cannot open resource
+>>> 
+
+
+解决方案字体路径修改为
+font_path='c:\\windows\\Fonts\\simhei.ttf'
+
+
+文件打开以后用这种方式
+
+with open('致橡树.txt','r',encoding='utf-8') as f:
+    txt = f.read()
+
+
+
+章节代码特点
+
+2、 不分词
+3、分词
+6、根据图片图形生成
+9、图形外轮廓线
+
+视频学习资料： 同济自豪兄
+
