@@ -1,6 +1,7 @@
 
 
 git 与 github 远程同步
+=====================
 
 本地切换目录到 /c/Users/Administrator/learngit 要与远程同步的文件夹
 
