@@ -12,6 +12,14 @@ git remote add origin https://github.com/chenfei2928/learngit.git
 git push -u origin master
     # 本地内容推送远程仓库
 
+代码插入测试
+~~~ Python
+    # 分裂
+    # re.split()
+
+    print(re.split(r'[,:.]','a:b,c.d:e'))
+
+~~~
 
 ~~~linux
    git remote add origin https://github.com/chenfei2928/learngit.git
