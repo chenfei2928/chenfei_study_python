@@ -89,3 +89,7 @@ Ctrl + z：复原
 Ctrl + Home：跳到单元开头
 
 Ctrl + End：跳到单元末尾
+
+# 补充功能
+
+ctrl + shift + -：分割单元
