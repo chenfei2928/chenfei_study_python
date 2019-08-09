@@ -1,10 +1,10 @@
-#chenfei_study_python
+# chenfei_study_python
 
 学蟒蛇
 记录自己学习的过程
 
 
-#常见报错
+# 常见报错
 
 IOError：输入输出异常
 
